@@ -5,3 +5,8 @@ netty:
   default:
     allocator:
       max-order: 3
+
+bot:
+  name: forgotten_candle_bot
+  api-token: {BOT_API_TOKEN}
+

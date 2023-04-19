@@ -8,6 +8,6 @@ public class Application {
     public static void main(String[] args) {
         Micronaut.run(Application.class, args);
         ApplicationContext applicationContext = ApplicationContext.run();
-        applicationContext.getBean(TelegramBot.class);
+        applicationContext.getBean(TelegramBot.class).start();
     }
 }
